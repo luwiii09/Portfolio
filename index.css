@@ -57,3 +57,31 @@ body {
   cursor: pointer;
   padding: 0;
 }
+
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin: auto;
+  padding: 100px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bannerIntroduction {
+  color: inherit;
+  width: 400px;
+  height: auto;
+  padding-top: 50px;
+  margin-right: 50px;
+}
+
+.bannerIntroduction h3 {
+  font-style: italic;
+}
+
+.bannerPicture img {
+  height: 500px;
+  width: auto;
+  border-radius: 50px;
+}
