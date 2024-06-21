@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+  color: black;
+}
+
+.darkMode {
+  background-color: #222831;
+  color: white;
+}
+
+.navigationMain,
+.navigationLogo,
+.navigationLinks,
+.navigationLinks ul {
+  display: flex;
+}
+
+.navigationMain {
+  justify-content: space-around;
+}
+
+.navigationLogo {
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.navigationLinks {
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.navigationLinks li {
+  font-size: 18px;
+  margin-left: 50px;
+  list-style: none;
+}
+
+.navigationLinks li:hover {
+  color: #00adb5;
+  transition: 0.3s ease;
+}
+
+.navigationLinks a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigationLinks .darkModeIcon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
